@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj": {}
+    "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj": {
+    "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj",
         "projectName": "yx_marketplace.iOS",
-        "projectPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj",
+        "projectPath": "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj",
         "packagesPath": "C:\\Users\\junji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\obj\\",
+        "outputPath": "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj": {
-                "projectPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj"
+              "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj": {
+                "projectPath": "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj": {
+    "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj",
+        "projectUniqueName": "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj",
         "projectName": "yx_marketplace",
-        "projectPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj",
+        "projectPath": "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj",
         "packagesPath": "C:\\Users\\junji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\obj\\",
+        "outputPath": "C:\\Users\\junji\\Desktop\\yx_market\\yx_marketplace\\yx_marketplace\\yx_marketplace\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
