@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj",
+        "projectName": "yx_marketplace.iOS",
+        "projectPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\yx_marketplace.iOS.csproj",
+        "packagesPath": "C:\\Users\\junji\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\junji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj": {
+                "projectPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj",
+        "projectName": "yx_marketplace",
+        "projectPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\yx_marketplace.csproj",
+        "packagesPath": "C:\\Users\\junji\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junji\\Source\\Repos\\yx_marketplace\\yx_marketplace\\yx_marketplace\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\junji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
