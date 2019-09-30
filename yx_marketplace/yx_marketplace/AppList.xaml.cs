@@ -27,9 +27,18 @@ namespace yx_marketplace
             {
                 conn.CreateTable<CompanyInfo>();
                 var info = conn.Table<CompanyInfo>().ToList();
-                GameListView.ItemsSource = info;
-            }
 
+                var game = (from GameCount in info
+                                 where GameCount.Categorystate == "game"
+                                 select GameCount);
+                GameListView.ItemsSource = game;
+            }
+        }
+        private async void OnAppSelected(object sender ,ItemTappedEventArgs e)
+        {
+            var detail = e.Item as CompanyInfo;
+            await Navigation.PushAsync(new MyListPageDetail(detail.AppName, detail.CompanyName, detail.Categorystate));
+                 
         }
     }
 }

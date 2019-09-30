@@ -20,20 +20,30 @@ namespace yx_marketplace
 
         private void portsave_click(object sender, EventArgs e)
         {
-            CompanyInfo info = new CompanyInfo()
+            if(Category.Text=="game" ||Category.Text == "education"|| Category.Text == "social")
             {
-                AppName = Appname.Text,
-                CompanyName = Companyname.Text
-            };
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
-            {
-                conn.CreateTable<CompanyInfo>();
-                int rows = conn.Insert(info);
-                if (rows > 0)
-                    DisplayAlert("Success", "Information success inserted", "Ok");
-                else
-                    DisplayAlert("Failure", "Information failure inserted", "Ok");
+                CompanyInfo info = new CompanyInfo()
+                {
+                    AppName = Appname.Text,
+                    CompanyName = Companyname.Text,
+                    Categorystate = Category.Text
+
+                };
+                using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+                {
+                    conn.CreateTable<CompanyInfo>();
+                    int rows = conn.Insert(info);
+                    if (rows > 0)
+                        DisplayAlert("Success", "Information success inserted", "Ok");
+                    else
+                        DisplayAlert("Failure", "Information failure inserted", "Ok");
+                }
             }
+            else
+            {
+                DisplayAlert("Failure", "Information failure inserted", "Ok");
+            }
+            
         }
     }
 }

@@ -17,7 +17,6 @@ C:\Users\junji\Source\Repos\yx_marketplace\yx_marketplace\yx_marketplace\obj\Deb
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\bin\Debug\netstandard2.0\yx_marketplace.deps.json
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\bin\Debug\netstandard2.0\yx_marketplace.dll
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\bin\Debug\netstandard2.0\yx_marketplace.pdb
-C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\yx_marketplace.csprojAssemblyReference.cache
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\AppList.xaml.g.cs
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\CategoryPage.xaml.g.cs
@@ -30,3 +29,6 @@ C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\ob
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\yx_marketplace.dll
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\yx_marketplace.pdb
+C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\educationlist.xaml.g.cs
+C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\sociallist.xaml.g.cs
+C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\MyListPageDetail.xaml.g.cs

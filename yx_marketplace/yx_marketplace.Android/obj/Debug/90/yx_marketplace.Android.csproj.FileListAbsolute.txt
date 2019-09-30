@@ -622,7 +622,6 @@ C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.An
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\bin\Debug\com.companyname.yx_marketplace-Signed.apk
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\bin\Debug\yx_marketplace.dll
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\bin\Debug\yx_marketplace.pdb
-C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\bin\Debug\yx_marketplace.dll.mdb
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\obj\Debug\90\build.props
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\obj\Debug\90\adb.props
@@ -1234,3 +1233,4 @@ C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.An
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace.Android\bin\Debug\yx_marketplace.dll.mdb

@@ -14,5 +14,6 @@ namespace yx_marketplace.Model
         //return error if >500
         public string AppName { get; set; }
         public string CompanyName { get; set; }
+        public string Categorystate { get; set; }
     }
 }

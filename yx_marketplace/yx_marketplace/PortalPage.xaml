@@ -15,6 +15,9 @@
             <Entry x:Name="Companyname"
             Placeholder="CompanyName"
             />
+            <Entry x:Name="Category"
+            Placeholder="game,education,social"
+            />
 
             <Button x:Name="portsave"
                 Text="save"

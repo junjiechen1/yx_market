@@ -16,13 +16,21 @@ namespace yx_marketplace
         {
             InitializeComponent();
             var assembly = typeof(CategoryPage);
-            gameImage.Source = ImageSource.FromResource("yx_marketplace.Assets.Images.GameTab.png",assembly);
+            gameImage.Source = ImageSource.FromResource("yx_marketplace.Assets.Images.GameTab.png", assembly);
             EducationImage.Source = ImageSource.FromResource("yx_marketplace.Assets.Images.EducationTab.png", assembly);
             SocialMediaImage.Source = ImageSource.FromResource("yx_marketplace.Assets.Images.SocialMedia.jpg", assembly);
         }
         private void game_click(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AppList());
+        }
+        private void education_click(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new educationlist());
+        }
+        private void social_click(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new sociallist());
         }
     }
 }

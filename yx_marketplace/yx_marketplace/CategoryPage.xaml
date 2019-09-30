@@ -17,8 +17,8 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <ImageButton x:Name="gameImage" Aspect="AspectFill" Grid.Row="0" Grid.Column="0" Clicked="game_click" />
-        <ImageButton x:Name="EducationImage" Aspect="AspectFill" Grid.Row="0" Grid.Column="1" />
-        <ImageButton x:Name="SocialMediaImage" Aspect="AspectFill" Grid.Row="1" Grid.Column="0" />
+        <ImageButton x:Name="EducationImage" Aspect="AspectFill" Grid.Row="0" Grid.Column="1" Clicked="education_click"/>
+        <ImageButton x:Name="SocialMediaImage" Aspect="AspectFill" Grid.Row="1" Grid.Column="0" Clicked="social_click"/>
     </Grid>
 
 
