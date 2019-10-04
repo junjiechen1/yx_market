@@ -32,3 +32,4 @@ C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\ob
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\educationlist.xaml.g.cs
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\sociallist.xaml.g.cs
 C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\MyListPageDetail.xaml.g.cs
+C:\Users\junji\Desktop\yx_market\yx_marketplace\yx_marketplace\yx_marketplace\obj\Debug\netstandard2.0\yx_marketplace.csprojAssemblyReference.cache
