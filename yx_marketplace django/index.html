@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3>YXMarketplace Web login </h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <ul id="myList">
+      <li>App Uploaded By User</li>
+    </ul>
+
+
+    <input type="appname" placeholder="appname.." id="AppName" />
+    <input type="companyname" placeholder="companyname.." id="CompanyName" />
+    <input type="category" placeholder="category.." id="Category" />
+    <input type="images" placeholder="image.." id="Images" />
+    <input type="agerating" placeholder="agerating.." id="Agerating" />
+    <input type="description" placeholder="description.." id="Description" />
+
+
+
+
+   <button onclick="submit()">submit</button>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+<<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCL8540Nkmdm4U4KAv8aivHuRXdl0VTATo",
+    authDomain: "marketplace-d645d.firebaseapp.com",
+    databaseURL: "https://marketplace-d645d.firebaseio.com",
+    projectId: "marketplace-d645d",
+    storageBucket: "marketplace-d645d.appspot.com",
+    messagingSenderId: "799613951440",
+    appId: "1:799613951440:web:5002728ae1034aaae2add5",
+    measurementId: "G-11X6N8S7JC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <script src="index.js"></script>
+
+</body>
+</html>
