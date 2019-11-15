@@ -37,6 +37,43 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:799613951440:android:058be08f549014d6e2add5",
+        "android_client_info": {
+          "package_name": "com.internal.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799613951440-1igabu2o2h9unfi96c77a16j0jhdfj2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.internal.myapplication",
+            "certificate_hash": "03d5547a42f05301718dc1bb4b6e192ae27aaf1f"
+          }
+        },
+        {
+          "client_id": "799613951440-h3b9743uq2a3cpoto021lb85nphekvs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEoqvq3UKQ5wUrOd56Nw5ZSihFcibL95g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799613951440-h3b9743uq2a3cpoto021lb85nphekvs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:799613951440:android:ca51e6d6058aa791e2add5",
         "android_client_info": {
           "package_name": "com.internal.yx_marketplace_firebase"
