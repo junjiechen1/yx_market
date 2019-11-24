@@ -6,17 +6,140 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+
+    <ImageView
+        android:id="@+id/gameimage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/image1"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="12dp"
+        android:text="Game"
+        android:textColor="#111"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameimage" />
+
+    <ImageView
+        android:id="@+id/EducationImage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gameimage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image4" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="319dp"
-        android:layout_marginEnd="205dp"
-        android:layout_marginBottom="393dp"
-        android:text="homepage"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="48dp"
+        android:text="Education"
+        android:textColor="#111"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EducationImage" />
+
+    <ImageView
+        android:id="@+id/SocialImage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/image3" />
+
+    <ImageView
+        android:id="@+id/FitnessImage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="212dp"
+        app:layout_constraintStart_toStartOf="@+id/SocialImage"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/image5" />
+
+    <ImageView
+        android:id="@+id/KidImage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/image6" />
+
+    <ImageView
+        android:id="@+id/FinanceImage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@+id/KidImage"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/image7" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="12dp"
+        android:text="Social"
+        android:textColor="#111"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SocialImage" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="60dp"
+        android:text="Fitness"
+        android:textColor="#111"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FitnessImage" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+
+        android:layout_marginTop="12dp"
+        android:text="Kids"
+        android:textColor="#111"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KidImage" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="76dp"
+        android:text="finance"
+        android:textColor="#111"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FinanceImage" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

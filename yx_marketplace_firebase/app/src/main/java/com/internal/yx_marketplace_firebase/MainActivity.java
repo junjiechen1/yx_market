@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,17 +24,19 @@ public class MainActivity extends AppCompatActivity {
     Button loginbutton;
     Button signupbutton;
     FirebaseAuth mFirebaseAuth;
+
     private FirebaseAuth.AuthStateListener mAuthstateListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        ImageView image1 = findViewById(R.id.iconimage);
         mFirebaseAuth = FirebaseAuth.getInstance();
         emailId = findViewById(R.id.EmailText);
         password = findViewById(R.id.PasswordText);
         signupbutton = findViewById(R.id.button2);
         loginbutton = findViewById(R.id.button);
+
         signupbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -108,7 +111,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
 
     }
 

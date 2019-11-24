@@ -1,6 +1,7 @@
 var user;
 var email_id;
 var firebaseRef;
+var Apps = "games";
 
 
 firebase.auth().onAuthStateChanged(function(user) {
@@ -14,7 +15,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
     if(user != null){
 
-       firebaseRef = firebase.database().ref().child("Apps");
+       firebaseRef = firebase.database().ref().child(Apps);
        email_id = user.email;
       document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
 
@@ -45,7 +46,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 });
 
 function submit(){
-
+    
     appName = document.getElementById("AppName").value;
     companyName = document.getElementById("CompanyName").value;
     category = document.getElementById("Category").value;
@@ -62,7 +63,9 @@ function submit(){
         agerating:agerating,
         description:description
       }
-
+      Apps = document.getElementById("Category").value;
+      firebaseRef = firebase.database().ref().child(Apps);
+      
       firebaseRef.push(data);
     }
 
